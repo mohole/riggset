@@ -19,6 +19,7 @@ ul,
 ul li{
     list-style: none;
 }
+a{text-decoration: none;}
 
 /* CSS HEX */
 :root{
@@ -33,10 +34,9 @@ ul li{
 /* BASIC STYLE */
 body{font-family: Helvetica, Arial, sans-serif;}
 
-/* USEFUL CLASSES */
+/** USEFUL CLASSES **/
 
-
-/* DISPLAYS */
+/* Displays */
 .none{display: none;}
 .block{display: block;}
 .inline-block{display: inline-block;}
