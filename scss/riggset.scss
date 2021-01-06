@@ -5,6 +5,14 @@ Palette from coolors.co in :root with simpler names
 git clone https://github.com/FFLAB/riggset.git
 */
 
+$colors-map: (
+    red: #8d2723ff,
+    violet: #6b4e79ff,
+    gold: #b87f22ff,
+    blue: #5b9a96ff,
+    grey: #8b97a7ff
+);   
+
 /* RESET */
 *{
     margin: 0;
@@ -23,14 +31,7 @@ ul li{
 }
 a{text-decoration: none;}
 
-/* CSS HEX */
-:root{
---red: #d33f49ff;
---violet: #d7c0d0ff;
---beige: #eff0d1ff;
---green: #77ba99ff;
---black: #262730ff;
-}
+
 
 
 /* BASIC STYLE */
@@ -41,22 +42,16 @@ body{font-family: Helvetica, Arial, sans-serif;}
 .none{display: none;}
 .block{display: block;}
 .inline-block{display: inline-block;}
-.grid{display:grid;}
+.grid{display: grid;}
 .flex{display: flex;}
 
-/* Background colors from palette */
-.bg-red{background-color: var(--red);}
-.bg-violet{background-color: var(--violet);}
-.bg-beige{background-color: var(--beige);}
-.bg-green{background-color: var(--green);}
-.bg-black{background-color: var(--black);}
-
-/* Text colors from palette */
-.red{color: var(--red);}
-.violet{color: var(--violet);}
-.beige{color: var(--beige);}
-.green{color: var(--green);}
-.black{color: var(--black);}
-
-.white{color: white;}
+// create color classes
+.bg {
+    @each $theme, $color in $colors-map {
+        &-#{$theme} {
+         background-color: $color;
+         color: #ffffff;  
+       }
+      }
+    }
 

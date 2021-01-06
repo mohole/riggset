@@ -1,0 +1,85 @@
+/* BASIC AND RESET CSS
+for didactic purpose by Francesco Riggio
+Palette from coolors.co in :root with simpler names
+*
+git clone https://github.com/FFLAB/riggset.git
+*/
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* BASIC STYLE */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/** USEFUL CLASSES **/
+/* Displays */
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bg-red {
+  background-color: #8d2723ff;
+  color: #ffffff;
+}
+
+.bg-violet {
+  background-color: #6b4e79ff;
+  color: #ffffff;
+}
+
+.bg-gold {
+  background-color: #b87f22ff;
+  color: #ffffff;
+}
+
+.bg-blue {
+  background-color: #5b9a96ff;
+  color: #ffffff;
+}
+
+.bg-grey {
+  background-color: #8b97a7ff;
+  color: #ffffff;
+}
+/*# sourceMappingURL=riggset.css.map */
