@@ -1,5 +1,6 @@
 /* BASIC AND RESET CSS
 for didactic purpose by Francesco Riggio
+Palette from coolors.co in :root with simpler names
 */
 
 /* RESET */
@@ -10,14 +11,51 @@ for didactic purpose by Francesco Riggio
     box-sizing: border-box;
     font-size: 100%;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
+ul,
+ul li{
+    list-style: none;
+}
+
+/* CSS HEX */
+:root{
+--red: #d33f49ff;
+--violet: #d7c0d0ff;
+--beige: #eff0d1ff;
+--green: #77ba99ff;
+--black: #262730ff;
+}
+
 
 /* BASIC STYLE */
 body{font-family: Helvetica, Arial, sans-serif;}
 
 /* USEFUL CLASSES */
 
+
 /* DISPLAYS */
 .none{display: none;}
 .block{display: block;}
+.inline-block{display: inline-block;}
 .grid{display:grid;}
 .flex{display: flex;}
+
+/* Background colors from palette */
+.bg-red{background-color: var(--red);}
+.bg-violet{background-color: var(--violet);}
+.bg-beige{background-color: var(--beige);}
+.bg-green{background-color: var(--green);}
+.bg-black{background-color: var(--black);}
+
+/* Text colors from palette */
+.red{color: var(--red);}
+.violet{color: var(--violet);}
+.beige{color: var(--beige);}
+.green{color: var(--green);}
+.black{color: var(--black);}
+
+.white{color: white;}
+

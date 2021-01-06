@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- demo for riggset.css -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo riggset.css</title>
+    <link rel="stylesheet" href="riggset.css">
+    <!-- style demo -->
+    <style>
+        header{
+            height: 10vw;
+            padding: 5vw;
+            text-align: center;
+        }
+        main .col{
+            padding: 10px;
+        }
+        @media (min-width: 768px) {
+            main{grid-template-columns: 1fr 1fr 1fr;}
+        }
+        .space-around{justify-content: space-around;}
+        ul{margin: 10px 0}
+
+    </style>
+</head>
+<body>
+    <header class="bg-black white">
+        <h2>Demo Riggset</h2>
+
+    </header>
+    <main class="grid">
+       <div class="col bg-green">
+        <h3>UL list style none</h3>
+        <ul>
+           <li>List item</li>
+           <li>List item</li>
+           <li>List item</li>
+       </ul>
+       <h3>UL list flex space-around</h3>
+       <ul class="flex space-around">
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+    </ul>
+       </div>
+       <div class="col bg-red">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus nulla ducimus accusamus voluptates in! Est tempora facilis in qui reiciendis fugiat error aliquam omnis eius aliquid quo aspernatur pariatur sint ea doloremque sunt perferendis, porro harum nesciunt ipsam tempore distinctio? Id quos totam ipsa quasi, laboriosam quidem eveniet est. Qui aut architecto aliquid doloribus in. Provident ipsum optio vero eos officiis aut, consequatur velit in facere accusamus recusandae nobis mollitia ipsam reprehenderit aperiam soluta, eveniet tempore laborum quam quibusdam earum. Itaque consectetur vel voluptatibus iste? Perferendis amet ratione possimus vel vero eos odit? Aliquam, excepturi. Quae asperiores corporis veniam ipsa?</p>
+
+    </div>
+    <div class="col bg-green">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus nulla ducimus accusamus voluptates in! Est tempora facilis in qui reiciendis fugiat error aliquam omnis eius aliquid quo aspernatur pariatur sint ea doloremque sunt perferendis, porro harum nesciunt ipsam tempore distinctio? Id quos totam ipsa quasi, laboriosam quidem eveniet est. Qui aut architecto aliquid doloribus in. Provident ipsum optio vero eos officiis aut, consequatur velit in facere accusamus recusandae nobis mollitia ipsam reprehenderit aperiam soluta, eveniet tempore laborum quam quibusdam earum. Itaque consectetur vel voluptatibus iste? Perferendis amet ratione possimus vel vero eos odit? Aliquam, excepturi. Quae asperiores corporis veniam ipsa?</p>
+
+    </div>
+    </main>
+    
+</body>
+</html>
