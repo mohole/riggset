@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo riggset.css</title>
-    <link rel="stylesheet" href="riggset.css">
+    <link rel="stylesheet" href="css/riggset.css">
     <!-- style demo -->
     <style>
-        header{
+        header,footer{
             height: 10vw;
             padding: 5vw;
             text-align: center;
         }
         main .col{
-            padding: 10px;
+            padding: 30px;
         }
         @media (min-width: 768px) {
             main{grid-template-columns: 1fr 1fr 1fr;}
@@ -25,11 +25,11 @@
     </style>
 </head>
 <body>
-    <header class="bg-black white">
+    <header class="bg-gold">
         <h2>Demo Riggset</h2>
     </header>
     <main class="grid">
-       <div class="col bg-green">
+       <div class="col bg-blue">
         <h3>UL list style none</h3>
         <ul>
            <li>List item</li>
@@ -47,11 +47,14 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus nulla ducimus accusamus voluptates in! Est tempora facilis in qui reiciendis fugiat error aliquam omnis eius aliquid quo aspernatur pariatur sint ea doloremque sunt perferendis, porro harum nesciunt ipsam tempore distinctio? Id quos totam ipsa quasi, laboriosam quidem eveniet est. Qui aut architecto aliquid doloribus in. Provident ipsum optio vero eos officiis aut, consequatur velit in facere accusamus recusandae nobis mollitia ipsam reprehenderit aperiam soluta, eveniet tempore laborum quam quibusdam earum. Itaque consectetur vel voluptatibus iste? Perferendis amet ratione possimus vel vero eos odit? Aliquam, excepturi. Quae asperiores corporis veniam ipsa?</p>
 
     </div>
-    <div class="col bg-green">
+    <div class="col bg-blue">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus nulla ducimus accusamus voluptates in! Est tempora facilis in qui reiciendis fugiat error aliquam omnis eius aliquid quo aspernatur pariatur sint ea doloremque sunt perferendis, porro harum nesciunt ipsam tempore distinctio? Id quos totam ipsa quasi, laboriosam quidem eveniet est. Qui aut architecto aliquid doloribus in. Provident ipsum optio vero eos officiis aut, consequatur velit in facere accusamus recusandae nobis mollitia ipsam reprehenderit aperiam soluta, eveniet tempore laborum quam quibusdam earum. Itaque consectetur vel voluptatibus iste? Perferendis amet ratione possimus vel vero eos odit? Aliquam, excepturi. Quae asperiores corporis veniam ipsa?</p>
 
     </div>
     </main>
+    <footer class="bg-grey">
+        <h3>This is the footer</h3>
+    </footer>
     
 </body>
 </html>
