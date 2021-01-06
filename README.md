@@ -7,7 +7,7 @@ Palette from coolors.co in :root with simpler names
 
 Example in demo.html [GitHub Pages - demo.html](https://fflab.github.io/riggset/demo.html).
 
-git clone https://github.com/FFLAB/riggset.git
+[git clone https://github.com/FFLAB/riggset.git]
 
 
 
