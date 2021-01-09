@@ -1,57 +1,11 @@
 /* BASIC AND RESET CSS
 for didactic purpose by Francesco Riggio
-Palette from coolors.co in :root with simpler names
+Palette from coolors.co - with simpler names
 *
 git clone https://github.com/FFLAB/riggset.git
 */
 
-$colors-map: (
-    red: #8d2723ff,
-    violet: #6b4e79ff,
-    gold: #b87f22ff,
-    blue: #5b9a96ff,
-    grey: #8b97a7ff
-);   
-
-/* RESET */
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-}
-img{
-    max-width: 100%;
-    height: auto;
-}
-ul,
-ul li{
-    list-style: none;
-}
-a{text-decoration: none;}
-
-
-
-
-/* BASIC STYLE */
-body{font-family: Helvetica, Arial, sans-serif;}
-
-/** USEFUL CLASSES **/
-/* Displays */
-.none{display: none;}
-.block{display: block;}
-.inline-block{display: inline-block;}
-.grid{display: grid;}
-.flex{display: flex;}
-
-// create color classes
-.bg {
-    @each $theme, $color in $colors-map {
-        &-#{$theme} {
-         background-color: $color;
-         color: #ffffff;  
-       }
-      }
-    }
+@import 'reset';
+@import 'colors-map';
+@import 'basic-styles';
 

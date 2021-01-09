@@ -1,6 +1,6 @@
 /* BASIC AND RESET CSS
 for didactic purpose by Francesco Riggio
-Palette from coolors.co in :root with simpler names
+Palette from coolors.co - with simpler names
 *
 git clone https://github.com/FFLAB/riggset.git
 */
@@ -14,11 +14,6 @@ git clone https://github.com/FFLAB/riggset.git
   font-size: 100%;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 ul,
 ul li {
   list-style: none;
@@ -26,6 +21,11 @@ ul li {
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* BASIC STYLE */
