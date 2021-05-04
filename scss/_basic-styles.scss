@@ -1,7 +1,7 @@
 /* BASIC STYLE */
 body{font-family: Helvetica, Arial, sans-serif;}
 
-/** USEFUL CLASSES **/
+/** UTILITY CLASSES **/
 /* Displays */
 .none{display: none;}
 .block{display: block;}
@@ -9,6 +9,7 @@ body{font-family: Helvetica, Arial, sans-serif;}
 .grid{display: grid;}
 .flex{display: flex;}
 
+/*** COLORS CLASSES ***/
 // create color classes
 .bg {
     @each $key, $value in $colors-map {
