@@ -3,7 +3,7 @@
 
 File riggset.css in css folder, created by Sass file riggset.scss in scss folder
 
-Palette from coolors.co in :root with simpler names
+Palette from coolors.co with simpler names
 
 
 Example in index.html [GitHub Pages](https://fflab.github.io/riggset).
